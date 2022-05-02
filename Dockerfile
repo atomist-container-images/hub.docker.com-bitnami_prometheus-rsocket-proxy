@@ -1,12 +1,24 @@
-# Tags: latest, 1.4.0-debian-10-r62, 1.4.0, 1-debian-10, 1
+# Tags: latest, 1.4.0-debian-10-r66, 1.4.0, 1-debian-10, 1
 FROM bitnami/prometheus-rsocket-proxy:latest
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r62
+FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r66
 FROM bitnami/prometheus-rsocket-proxy:1.4.0
 FROM bitnami/prometheus-rsocket-proxy:1-debian-10
 FROM bitnami/prometheus-rsocket-proxy:1
 
 # Tags: _
 FROM bitnami/prometheus-rsocket-proxy:_
+
+# Tags: 1.4.0-debian-10-r65
+FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r65
+
+# Tags: 1.4.0-debian-10-r64
+FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r64
+
+# Tags: 1.4.0-debian-10-r63
+FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r63
+
+# Tags: 1.4.0-debian-10-r62
+FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r62
 
 # Tags: 1.4.0-debian-10-r61
 FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r61
@@ -82,18 +94,3 @@ FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r38
 
 # Tags: 1.4.0-debian-10-r37
 FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r37
-
-# Tags: 1.4.0-debian-10-r36
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r36
-
-# Tags: 1.4.0-debian-10-r35
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r35
-
-# Tags: 1.4.0-debian-10-r34
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r34
-
-# Tags: 1.4.0-debian-10-r33
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r33
-
-# Tags: 1.4.0-debian-10-r32
-FROM bitnami/prometheus-rsocket-proxy:1.4.0-debian-10-r32
